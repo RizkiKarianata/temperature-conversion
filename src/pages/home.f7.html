@@ -1,0 +1,208 @@
+<template>
+	<div class="page">
+		<div class="navbar">
+			<div class="navbar-bg"></div>
+			<div class="navbar-inner sliding">
+				<div class="title">Kuhu</div>
+			</div>
+		</div>
+		<div class="page-content">
+			<div class="list">
+				<ul>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="CF" />
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Celcius <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Fahrenheit</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="CR"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Celcius <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Reamur</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="CK"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Celcius <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Kelvin</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="FC"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Fahrenheit <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Celcius</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="FR"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Fahrenheit <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Reamur</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="FK"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Fahrenheit <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Kelvin</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="RC"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Reamur <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Celcius</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="RF"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Reamur <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Fahrenheit</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="RK"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Reamur <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Kelvin</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="KC"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Kelvin <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Celcius</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="KF"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Kelvin <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Fahrenheit</div>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label class="item-radio item-radio-icon-start item-content">
+							<input type="radio" name="demo-radio-start" class="myradio" value="KR"/>
+							<i class="icon icon-radio"></i>
+							<div class="item-inner">
+								<div class="item-title">Kelvin <i class="f7-icons" style="font-size: 15px;">arrow_right</i> Reamur</div>
+							</div>
+						</label>
+					</li>
+				</ul>
+			</div>
+			<div class="list no-hairlines-md">
+				<ul>
+					<li class="item-content item-input item-input-outline">
+						<div class="item-inner">
+							<div class="item-title item-floating-label">Angka</div>
+							<div class="item-input-wrap">
+								<input type="number" name="angka" id="angka" placeholder="Masukkan Angka" autocomplete="off">
+								<span class="input-clear-button"></span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="block">
+				<p class="row">
+					<button class="col button button-raised button-fill button-round" @click="checkResult">Lihat Hasil</button>
+				</p>
+			</div>
+		</div>
+	</div>
+</template>
+<script>
+	export default{
+		mounted() {
+			var $this = this;
+			var app = this.$app;
+			var $$ = this.$$;
+			var self = this;
+		},
+		methods: {
+			checkResult: function() {
+				var $this = this;
+				var app = this.$app;
+				var $$ = this.$$;
+				var self = this;
+
+				var angka = $$('#angka').val();
+				var radio = $$('input[name="demo-radio-start"]:checked').val();
+				console.log("Kuhu : "+radio+ " "+angka);
+
+				if(angka == null || angka == "") {
+					app.dialog.alert("Masukkan angka terlebih dahulu");
+				}else {
+					if(radio == "CF") {
+						var hasil = ((9 / 5) * parseInt(angka)) + 32;
+						app.dialog.alert("Hasil dari konversi suhu Celcius ke Fahrenheit adalah "+hasil);
+					}else if(radio == "CR") {
+						var hasil = (4 / 5) * parseInt(angka);
+						app.dialog.alert("Hasil dari konversi suhu Celcius ke Reamur adalah "+hasil);
+					}else if(radio == "CK") {
+						var hasil = parseInt(angka) + 273.15;
+						app.dialog.alert("Hasil dari konversi suhu Celcius ke Kelvin adalah "+hasil);
+					}else if(radio == "FC") {
+						var hasil = (parseInt(angka) - 32) / (9 / 5);
+						app.dialog.alert("Hasil dari konversi suhu Fahrenheit ke Celcius adalah "+hasil);
+					}else if(radio == "FR") {
+						var hasil = (parseInt(angka) - 32) / (9 / 4);
+						app.dialog.alert("Hasil dari konversi suhu Fahrenheit ke Reamur adalah "+hasil);
+					}else if(radio == "FK") {
+						var hasil = (parseInt(angka) + 459.67) / (9 / 5);
+						app.dialog.alert("Hasil dari konversi suhu Fahrenheit ke Kelvin adalah "+hasil);
+					}else if(radio == "RC") {
+						var hasil = (parseInt(angka)) / (4 / 5);
+						app.dialog.alert("Hasil dari konversi suhu Reamur ke Celcius adalah "+hasil);
+					}else if(radio == "RF") {
+						var hasil = ((9 / 4) * parseInt(angka)) + 32;
+						app.dialog.alert("Hasil dari konversi suhu Reamur ke Fahrenheit adalah "+hasil);
+					}else if(radio == "RK") {
+						var hasil = (parseInt(angka) / (4 / 5)) + 273.15;
+						app.dialog.alert("Hasil dari konversi suhu Reamur ke Kelvin adalah "+hasil);
+					}else if(radio == "KC") {
+						var hasil = parseInt(angka) - 273.15;
+						app.dialog.alert("Hasil dari konversi suhu Kelvin ke Celcius adalah "+hasil);
+					}else if(radio == "KF") {
+						var hasil = (parseInt(angka) * (9 / 5)) - 459.67;
+						app.dialog.alert("Hasil dari konversi suhu Kelvin ke Fahrenheit adalah "+hasil);
+					}else if(radio == "KR") {
+						var hasil = (parseInt(angka) - 273.15) * (9 / 5);
+						app.dialog.alert("Hasil dari konversi suhu Kelvin ke Celcius adalah "+hasil);
+					}else {
+						app.dialog.alert('Pilih terlebih dahulu');
+					}
+				}
+			},
+		},
+	}
+</script>
